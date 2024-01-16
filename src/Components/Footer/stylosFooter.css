@@ -1,0 +1,13 @@
+/* estilos footer */
+.footer {
+    background-color: rgb(221, 23, 23);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* height: auto; */
+
+  }
+
+  .footer ul li {
+    font-size: 25px;
+  }
