@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.styles_img {
+    width: 100%;
+}
+
+
+.card-title{
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Baloo Paaji', cursive;
+    color: #695aa6;
+    margin: 10px;
+    padding: 5px;
+}
+
+.secondary_title{
+    font-family: 'Baloo Paaji', cursive;
+    font-size:18px;
+    color: rgba(66, 66, 67 , 10.);
+    padding: 3px;
+
+}
+
+.style_border1 {
+    border: 20px solid rgba(130, 136, 178, 0.8);
+    border-radius: 50px 0px;
+    transition: 1s;
+
+}
+
+/* .style_border1:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 1.5s;
+    .card-title{
+        color: rgb(5, 5, 5);
+    }
+
+    .styles_icon{
+        font-size: 30px;
+        color: black;
+    }
+} */
+
