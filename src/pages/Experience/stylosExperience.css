@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+
+/* SECCION CURRICULUM */
+.curriculum{
+    background: linear-gradient(225deg, rgba(103,87,156,1) 0%, rgba(255,255,255,1) 6%);
+    color: #fff;
+    padding: 30px 20px;
+}
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.curriculum h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 55px;
+    font-family: 'Baloo Paaji', cursive;
+    color: #695aa6;
+    margin: 30px;
+    padding: 5px;
+}
+.curriculum .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.curriculum .fila .columna{
+    width: 49%;
+    padding: 0 20px;
+}
+.curriculum .fila .columna h3{
+    font-size: 28px;
+    font-family: 'Baloo Paaji', cursive;
+    margin-bottom: 25px;
+    text-align: left;
+    /* color: rgb(66, 67, 69); */
+}
+/* Linea vertical izquierda */
+.curriculum .fila .izquierda{
+    border-right: 1px solid rgba(103,87,156,0.2);
+}
+
+/* Linea vertical derecha */
+.curriculum .fila .derecha{
+    border-left: 1px solid rgba(103,87,156,0.2);
+}
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    position: relative;
+    border: 1px solid #695aa6;
+    border-radius: 5px;
+}
+.curriculum .fila .item h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item .casa{
+    color: rgba(115, 115, 117, 0.9);
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .fila .item .fecha{
+    display: block;
+    color:  rgba(103,87,156,0.4);
+    margin-bottom: 10px;
+}
+.curriculum .fila .item p{
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: 'Baloo Paaji', cursive; */
+}
+.curriculum .fila .izq{
+    border-right: 7px solid #695aa6;
+    margin-right: 20px;
+  transition: 0.2s linear;
+  /* -webkit-transition: 1s linear; */
+}
+.curriculum .fila .izq:hover {
+    border-right: 7px solid #695aa6;
+    margin-right: 20px;
+    -webkit-box-shadow: -31px 32px 9px -25px rgba(105,90,166,0.58);
+    -moz-box-shadow: -31px 32px 9px -25px rgba(105,90,166,0.58);
+    box-shadow: -31px 32px 9px -25px rgba(105,90,166,0.58);
+    transition: 0.2s;
+    -webkit-transform: translate(-3%);
+    transform: translate(-3%);
+}
+.curriculum .fila .der{
+    border-left: 7px solid #695aa6;
+    margin-left: 20px;
+    transition: 0.2s linear;
+    /* -webkit-transition: 1s linear; */
+}
+.curriculum .fila .der:hover{
+    border-left: 7px solid #695aa6;
+    margin-left: 20px;
+    -webkit-box-shadow: 31px 32px 9px -25px rgba(105,90,166,0.58);
+    -moz-box-shadow: 31px 32px 9px -25px rgba(105,90,166,0.58);
+    box-shadow: 31px 32px 9px -25px rgba(105,90,166,0.58);
+    transition: 0.2s;
+    -webkit-transform: translate(3%);
+    transform: translate(3%);
+
+}
+.curriculum .fila .item .conectori{
+    height: 2px;
+    background-color: rgba(103,87,156,0.5);
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #695aa6;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.curriculum .fila .item .conectord{
+    height: 2px;
+    background-color: rgba(103,87,156,0.5);;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectord .circulod{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #695aa6;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
+@media screen and (max-width:700px){
+
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .columna{
+        width: 100%;
+    }
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+}

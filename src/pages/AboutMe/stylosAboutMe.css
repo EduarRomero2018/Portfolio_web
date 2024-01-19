@@ -21,9 +21,11 @@
 
 .secondary_title{
     font-family: 'Baloo Paaji', cursive;
-    font-size:18px;
+    font-size:15px;
     color: rgba(66, 66, 67 , 10.);
-    padding: 3px;
+    margin: 5px;
+    justify-content:left;
+
 
 }
 

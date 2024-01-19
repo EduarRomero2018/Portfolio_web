@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+/* SECCION PORTFOLIO */
+.portfolio{
+    background-color: #695aa6;
+    color: #fff;
+    padding: 50px 20px;
+}
+.portfolio .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.portfolio h2{
+    font-size: 48px;
+    font-family: 'Baloo Paaji', cursive;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff !important;
+}
+.portfolio .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio .galeria .proyecto{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+.portfolio .galeria .proyecto img{
+    width: 100%;
+    display: block;
+}
+.portfolio .galeria .proyecto .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background:  rgba(28, 21, 49, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+.portfolio .galeria .proyecto .overlay p{
+    margin-bottom: 1dvh;
+    transition: 1s;
+    color: #fff;
+}
+.portfolio .galeria .proyecto .overlay h3{
+    margin-bottom: 5px;
+    transition: 1s;
+    color: #fff;
+}
+
+
+.portfolio .galeria .proyecto .overlay:hover{
+    opacity: 1;
+
+}
+.portfolio .galeria .proyecto .overlay:hover h3{
+    margin-bottom: 15px;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #cec9de;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #695aa6;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+  }
+
+  button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+  }
+
+  button:active {
+    transform: scale(0.9);
+  }
+
+  /* Responsive */
+  @media screen and (max-width:700px){
+    .portfolio .galeria{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .galeria .proyecto{
+        max-width: 100%;
+    }
+    .portfolio .galeria .proyecto img{
+        width: 100%;
+    }
+  }

@@ -23,7 +23,7 @@ const Article1 = () => {
             <div className="card-body style_border1">
               {/* <span className='styles_icon'><BsFillBookmarkCheckFill /></span> */}
               <h5 className="card-title">About Me</h5>
-              <p className="card-text secondary_title">Soy un Ingeniero de Sistemas apasionado por la tecnología, siempre enamorado del codigo, me gusta brindar soluciones a problemas de la vida real, siempre aplicando las mejores practicas de programación</p>
+              <p className="card-text secondary_title">¡Hola! Soy [Eduardo Romero], un apasionado Ingeniero de Sistemas con una formación en desarrollo web FullStack. Mi trayectoria profesional se ha centrado en la ingeniería de sistemas, donde he adquirido habilidades técnicas y experiencia en telecomunicaciones y redes, administración de servidores, experiencia en Ingeniería de Software, he ejercido en proyectos orientados al desarrollo de software utilizando tecnologías como html, css, javascript, bootstraps, materialize, tailwind, react+vite, node js, php, bases de datos relacionales (SQL, MYSQL), base de datos no relacionales (MongoDB, Firebase), y consumo de servicios Rest. </p>
             </div>
           </div>
         </div>
