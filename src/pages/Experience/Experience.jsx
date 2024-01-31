@@ -4,13 +4,14 @@ import './stylosExperience.css'
 function Experience() {
   return (
    <>
+
    <section id="curriculum" className="curriculum">
   <div className="contenido-seccion">
-    <h2>Curriculum</h2>
+    <h2>Experiencia</h2>
     <div className="fila">
       <div className="columna izquierda">
         <h3>Educación</h3>
-        <div className="item izq">
+        <div className="item izq text-left">
           <h4>Profesional Ingenieria de Sistemas</h4>
           <span className="casa">Universidad de Cartagena</span>
           <span className="fecha">2013 - 2019</span>

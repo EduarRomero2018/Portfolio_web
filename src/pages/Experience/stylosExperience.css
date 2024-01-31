@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
 
-/* SECCION CURRICULUM */
+
+/* stylo de text */
+
+.border{
+    max-width: 500px;
+    max-height: 500px;
+
+}
+
+/* SECTION CURRICULUM */
 .curriculum{
-    background: linear-gradient(225deg, rgba(103,87,156,1) 0%, rgba(255,255,255,1) 6%);
+    background: radial-gradient(circle, rgba(232,233,247,1) 0%, rgba(255,255,255,1) 100%);
+    /* background: linear-gradient(225deg, rgba(103,87,156,1) 0%, rgba(255,255,255,1) 6%);  */
     color: #fff;
     padding: 30px 20px;
 }
@@ -16,7 +26,7 @@
     font-size: 55px;
     font-family: 'Baloo Paaji', cursive;
     color: #695aa6;
-    margin: 30px;
+    margin-bottom: 20px;
     padding: 5px;
 }
 .curriculum .fila{
@@ -32,7 +42,7 @@
     font-family: 'Baloo Paaji', cursive;
     margin-bottom: 25px;
     text-align: left;
-    /* color: rgb(66, 67, 69); */
+    color: #424244;
 }
 /* Linea vertical izquierda */
 .curriculum .fila .izquierda{
@@ -51,8 +61,10 @@
     border-radius: 5px;
 }
 .curriculum .fila .item h4{
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 10px;
+    font-family: 'Baloo Paaji', cursive;
+    color: #424244;
 }
 .curriculum .fila .item .casa{
     color: rgba(115, 115, 117, 0.9);
@@ -67,8 +79,9 @@
 }
 .curriculum .fila .item p{
     line-height: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    /* font-family: 'Baloo Paaji', cursive; */
+    font-family: 'Baloo Paaji', cursive;
+    font-size: 14px;
+
 }
 .curriculum .fila .izq{
     border-right: 7px solid #695aa6;
