@@ -6,12 +6,14 @@ import Crud from '../../assets/images/Crud.png';
 import DashBoard from '../../assets/images/DashBoard.png';
 import Restaurant from '../../assets/images/Restaurant.png';
 import SaludWeb from '../../assets/images/SaludWeb.png';
+import SectionDivider from '../../Components/svg/SectionDivider';
 function Proyects() {
     return (
         <>
+              <SectionDivider className=''> </SectionDivider>
             <section id="portfolio" className="portfolio">
                 <div className="contenido-seccion">
-                    <h2>PORTFOLIO</h2>
+                    <h2>PORTAFOLIO</h2>
                     <div className="galeria">
                         <div className="proyecto">
                             <img src={LandinPages} alt="Landin Pages" />

@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+
+/* SVG */
+svg {
+    /* margin-top: -80px; */
+}
+
 /* SECCION PORTFOLIO */
 .portfolio{
     background-color: #695aa6;
     color: #fff;
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
+    margin-top: -100px;
 }
 .portfolio .contenido-seccion{
     max-width: 1100px;
@@ -13,7 +20,7 @@
     font-size: 48px;
     font-family: 'Baloo Paaji', cursive;
     text-align: center;
-    padding: 20px 0;
+    /* padding: -20px 0; */
     color: #fff !important;
 }
 .portfolio .galeria{
