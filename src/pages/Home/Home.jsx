@@ -11,8 +11,8 @@ function Home() {
       <div className="overlay"></div>
         <div className="header-content container">
           <h1 className="header-title">
-            <span className="up">Hello!</span>
-            <span className="down">I am Eduardo Romero</span>
+            {/* <span className="up">Hola!</span> */}
+            <span className="down">Eduardo Romero</span>
           </h1>
           <p className="header-subtitle">FullStack Developer</p>
           <div className="socialnetwork">
