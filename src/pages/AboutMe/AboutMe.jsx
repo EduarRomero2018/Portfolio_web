@@ -11,21 +11,23 @@ const Article1 = () => {
   return (
     <>
 
-      <div className="container">
+      <div className="container ">
         <div className="row text-center justify-content-center align-content-center">
+
+          <div className="col-sm-7">
+            <div className="card-body style_border1">
+              {/* <span className='styles_icon'><BsFillBookmarkCheckFill /></span> */}
+              <h5 className="card-title">Sobre mi</h5>
+              <p className="card-text secondary_title">¡Hola! Soy un <span className='styles_span'>ingeniero de sistemas</span> con una formación en <span className='styles_span'>desarrollo web FullStack,</span> apasionado en todo lo que hago, dispuesto siempre a enfrentar desafíos, amante de todo lo que indica, <span className='styles_span'>transformación digital</span> y <span className='styles_span'>accesibilidad</span> para lograr una verdadera inclusión. ¿Mi punto único? La versatilidad: lo que me ha impulsado para adaptarme a los entornos de trabajo.</p>
+            </div>
+          </div>
+
           <div className="col-sm-5">
             <figure>
               <img src={user} alt="" className="styles_img "/>
             </figure>
           </div>
 
-          <div className="col-sm-7 justify-content-center align-content-start">
-            <div className="card-body style_border1">
-              {/* <span className='styles_icon'><BsFillBookmarkCheckFill /></span> */}
-              <h5 className="card-title">About Me</h5>
-              <p className="card-text secondary_title">¡Hola! Soy [Eduardo Romero], un apasionado Ingeniero de Sistemas con una formación en desarrollo web FullStack. Mi trayectoria profesional se ha centrado en la ingeniería de sistemas, donde he adquirido habilidades técnicas y experiencia en telecomunicaciones y redes, administración de servidores, experiencia en Ingeniería de Software, he ejercido en proyectos orientados al desarrollo de software utilizando tecnologías como html, css, javascript, bootstraps, materialize, tailwind, react+vite, node js, php, bases de datos relacionales (SQL, MYSQL), base de datos no relacionales (MongoDB, Firebase), y consumo de servicios Rest. </p>
-            </div>
-          </div>
         </div>
       </div>
     </>
