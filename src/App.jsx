@@ -8,6 +8,7 @@ import AboutMe from './pages/AboutMe/AboutMe';
 import Experience from './pages/Experience/Experience';
 import Proyects from './pages/Proyects/Proyects';
 import Contact from './pages/Contact/Contact';
+import Technologies from './pages/technologies/Technologies';
 // import Footer from './Components/Footer/Footer';
 
 
@@ -19,6 +20,7 @@ function App() {
      < AboutMe />
      < Experience />
      < Proyects/>
+     {/* < Technologies/> */}
      < Contact/>
 
      {/* < Footer /> */}
