@@ -6,11 +6,11 @@ import Crud from '../../assets/images/Crud.png';
 import DashBoard from '../../assets/images/DashBoard.png';
 import Restaurant from '../../assets/images/Restaurant.png';
 import SaludWeb from '../../assets/images/SaludWeb.png';
-import SectionDivider from '../../Components/svg/SectionDivider';
+import SectionDivider from '../../Components/svg/SvgFile';
 function Proyects() {
     return (
         <>
-              <SectionDivider className=''> </SectionDivider>
+              <SectionDivider></SectionDivider>
             <section id="portfolio" className="portfolio">
                 <div className="contenido-seccion">
                     <h2>PORTAFOLIO</h2>
