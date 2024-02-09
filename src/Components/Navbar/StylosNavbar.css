@@ -6,47 +6,70 @@
     width: 100%;
     text-align: center;
     z-index: 9999;
+    /* vertical-align: baseline; */
 }
+
 .nav > ul {
     display: inline-block;
-    /* border-radius: 0.35em; */
     border-radius: 50px;
-    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0px 0px 1px 1px #63538A;
     padding: 0 1.5em 0 1.5em;
 }
 
-.nav > ul > li {
+
+
+.nav>ul>li {
     display: inline-block;
     text-align: center;
     padding: 0 1.5em 0 1.5em;
+    color: #414243;
 }
 
-    .nav > ul > li > ul {
-        display: none;
+.nav>ul>li>ul {
+    display: none;
+}
+
+.nav>ul>li>a,
+nav>ul>li>span {
+    display: block;
+    /* color: #414243; */
+    /* color: rgba(255, 255, 255, 0.75); */
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-size: 0.9em;
+    letter-spacing: 0.25em;
+    height: 5em;
+    line-height: 5em;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    outline: 0;
+}
+
+
+.nav ul li a {
+    color: #414243;
+
+}
+
+
+
+.nav>ul>li:hover>a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    .nav>ul {
+        display: inline-block;
+        border-radius: 50px;
+        box-shadow: inset 0px 0px 1px 1px #fff;
+        padding: 0 1.5em 0 1.5em;
     }
 
-    .nav > ul > li > a, nav > ul > li > span {
-        display: block;
-        color: #eee;
-        color: rgba(255, 255, 255, 0.75);
-        text-transform: uppercase;
-        text-decoration: none;
-        font-size: 0.9em;
-        letter-spacing: 0.25em;
-        height: 5em;
-        line-height: 5em;
-        -moz-transition: all .25s ease-in-out;
-        -webkit-transition: all .25s ease-in-out;
-        -o-transition: all .25s ease-in-out;
-        -ms-transition: all .25s ease-in-out;
-        transition: all .25s ease-in-out;
-        outline: 0;
-    }
+}
 
-    .nav > ul > li:hover > a {
-        color: #fff;
-    }
+.nav>ul>li.active>a,
+#nav>ul>li.active>span {
+    color: #fff;
+}
 
-    .nav > ul > li.active > a, #nav > ul > li.active > span {
-        color: #fff;
-    }
