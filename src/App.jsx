@@ -20,7 +20,7 @@ function App() {
      < AboutMe />
      < Experience />
      < Proyects/>
-     {/* < Technologies/> */}
+     < Technologies/>
      < Contact/>
 
      {/* < Footer /> */}
