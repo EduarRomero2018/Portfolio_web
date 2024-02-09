@@ -1,0 +1,110 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+section{
+    background-color: #f7f7fc;
+}
+.container .card-header{
+    background: #fff;
+}
+
+
+.container h2{
+    font-family: 'Baloo Paaji', cursive;
+    color: #695aa6;
+    font-size: 30px;
+    margin-top: -40px;
+}
+
+.container .size_img img {
+    width: 70px;
+    transition: 0.3s linear;
+
+}
+
+.container .size_img img:hover {
+    rotate: 90deg;
+    transition: 0.3s linear;
+}
+
+.container .card{
+    border: 1px solid #695aa6 !important;
+}
+
+.container h1{
+    font-family: 'Baloo Paaji', cursive;
+    color: #695aa6;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.container .card-footer{
+    font-family: 'Baloo Paaji', cursive;
+
+}
+
+/* TEST */
+/* body{margin-top:20px;}
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #67579C;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #67579C;
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #67579C;
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: #67579C;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+} */
