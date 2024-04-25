@@ -3,7 +3,8 @@ import "./stylosAboutMe.css";
 
 // import valores from '../../Images/Nuestros Valores.webp';
 import developer from "../../assets/images/user.png";
-import Hija from "../../assets/images/Hija.jpeg";
+import Metas from "../../assets/images/Reloj-back.png";
+import Hija from "../../assets/images/Hija-back.png";
 import { BsFillBookmarkCheckFill } from "react-icons/bs";
 
 
@@ -33,6 +34,29 @@ const Article1 = () => {
               </p>
             </div>
           </div>
+
+
+          <div className="col-sm-7">
+            <div className="card-body style_border2">
+              {/* <span className='styles_icon'><BsFillBookmarkCheckFill /></span> */}
+              <h5 className="card-title">Iniciativas a corto plazo</h5>
+<ul className='styles_ul'>
+  <li>Especialización en Desarrollo de Bases de Datos (Junio-2024)</li>
+  <li>Estudiar Ingles (2025)</li>
+  <li>Certificado en AWS</li>
+</ul>
+            </div>
+          </div>
+
+          <div className="col-sm-5">
+            <figure className=''>
+              <img src={Metas} alt="developer" className="styles_img" />
+            </figure>
+            <svgdeveloper></svgdeveloper>
+
+          </div>
+
+
 
         </div>
 
