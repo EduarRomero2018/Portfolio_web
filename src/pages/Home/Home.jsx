@@ -14,7 +14,7 @@ function Home() {
             {/* <span className="up">Hola!</span> */}
             <span className="down">Eduardo Romero</span>
           </h1>
-          <p className="header-subtitle">FullStack Developer</p>
+          <p className="header-subtitle">UN POCO SOBRE MI</p>
           <div className="socialnetwork">
 
             {/* <span>{<FaGithub />}</span>

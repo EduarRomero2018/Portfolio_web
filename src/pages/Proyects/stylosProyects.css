@@ -16,6 +16,7 @@ svg {
     max-width: 1100px;
     margin: auto;
 }
+
 .portfolio h2{
     font-size: 48px;
     font-family: 'Baloo Paaji', cursive;
@@ -23,6 +24,20 @@ svg {
     /* padding: -20px 0; */
     color: #fff !important;
 }
+
+.card-title{
+    font-weight: 500;
+  font-size: 30px;
+  font-family: 'Baloo Paaji', cursive;
+  color: #695aa6;
+  margin: 10px;
+  padding: 5px;
+}
+
+.card{
+  margin: 3px;
+}
+
 .portfolio .galeria{
     display: flex;
     flex-wrap: wrap;

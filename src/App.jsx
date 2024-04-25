@@ -18,10 +18,10 @@ function App() {
      < Home />
      < Navbar />
      < AboutMe />
-     < Experience />
      < Proyects/>
-     < Technologies/>
-     < Contact/>
+     < Experience />
+     {/* < Technologies/> */}
+     {/* < Contact/> */}
 
      {/* < Footer /> */}
     </div>

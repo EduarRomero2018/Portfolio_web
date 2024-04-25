@@ -9,6 +9,16 @@
     width: 100%;
 }
 
+.styles_img_hija {
+    width: 50%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.parrafo_hija p{
+    font-size:18px;
+}
+
 
 .card-title{
     font-weight: 500;
